@@ -222,3 +222,13 @@ span.victoria {
     margin: 0 0 18px;
     color: #000000;
 }
+
+.subtitulo {
+    text-align: center;
+    color: #146B3A;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 15px auto 25px;
+}
