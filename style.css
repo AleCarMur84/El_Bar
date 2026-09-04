@@ -1,0 +1,224 @@
+body {
+
+    background-color: #f4f4f4;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+
+    font-size: 32px;
+
+    margin: 5px 0;
+
+}
+
+h2 {
+    font-size: 19px;
+    margin: 12px 0 5px;
+}
+
+p {
+
+    font-size: 16px;
+
+    margin: 5px 0;
+
+}
+
+span.derrota,
+span.empate,
+span.victoria {
+
+    display: inline-block;
+
+    width: 10px;
+
+    height: 10px;
+
+    border-radius: 50%;
+
+    background-color: gray;
+
+}
+
+.derrota {
+
+    background-color: red;
+
+}
+
+.empate {
+
+    background-color: #d4a017;
+
+}
+
+.victoria {
+
+    background-color: green;
+
+}
+
+section {
+
+    max-width: 800px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+
+    background-image: url("img/cesped2.jpg");
+
+    background-color: rgba(0, 0, 0, 0.55);
+
+    background-blend-mode: multiply;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+
+    color: white;
+
+}
+
+.competicion {
+    display: block;
+    color: #e30613;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.jornada {
+    display: block;
+    font-size: 10px !important;
+    line-height: 10px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+    opacity: 1;
+}
+
+
+
+.forma-equipos {
+    display: flex;
+    justify-content: center;
+    margin-top: -2px;
+}
+
+.forma-equipos > div {
+    width: 110px;
+    display: flex;
+    gap: 4px;
+}
+
+.forma-equipos > div:first-child {
+    justify-content: flex-end;
+    margin-right: 35px;
+}
+
+.forma-equipos > div:last-child {
+    justify-content: flex-start;
+    margin-left: 35px;
+}
+
+span.derrota {
+    background-color: red !important;
+}
+
+span.empate {
+    background-color: #d4a017 !important;
+}
+
+span.victoria {
+    background-color: green !important;
+}
+
+.competicion,
+.jornada {
+    display: block;
+}
+
+.jornada {
+    font-size: 20px;
+}
+
+.datos-contenedor {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transform: translateX(25px);
+}
+
+.datos {
+    width: 250px;
+    text-align: left;
+}
+
+.cabecera {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cronica {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.cronica h2 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #146B3A;
+    margin: 0 0 25px;
+}
+
+.titulo-cronica {
+    font-size: 24px !important;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 5px 0 15px;
+    color: #000000;
+}
+
+.autor-cronica {
+    font-size: 14px;
+    color: #146B3A !important;
+    margin: 8px 0 2px;
+}
+
+.fecha-cronica {
+    font-size: 13px;
+    color: #146B3A !important;
+    margin: 0 0 25px;
+}
+
+.texto-cronica {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.texto-cronica p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 0 0 18px;
+    color: #000000;
+}
