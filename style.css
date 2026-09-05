@@ -3,7 +3,8 @@
 ========================= */
 
 body {
-    background-color: #ffffff;
+    
+    background-color: #f7f5ef;
     font-family: 'Poppins', sans-serif;
     color: #000000;
     margin: 0;
@@ -148,13 +149,14 @@ span.victoria {
 .subtitulo {
     text-align: center;
     color: #000000;
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 700;
     font-style: normal;
     letter-spacing: 1.8px;
     line-height: 1.5;
     margin: 18px auto 25px;
-    background-color: #ffffff;
+    background-color: #f7f5ef;
+
 }
 
 
@@ -167,18 +169,18 @@ span.victoria {
     margin: 35px auto;
     padding: 30px;
     text-align: left;
-    background-color: #ffffff;
+    background-color: #f7f5ef;
     border-radius: 0;
 }
 
 .titulo-cronica {
-    font-size: 32px !important;
+    font-size: 22px !important;
     font-weight: 800;
-    line-height: 1.1;
+    line-height: 1.2;
     margin: 0 0 8px;
     color: #000000;
     border-bottom: 2px solid #000000;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .autor-cronica {
@@ -218,19 +220,35 @@ span.victoria {
     margin: 35px auto;
     padding: 30px;
     text-align: left;
-    background-color: #ffffff;
+    background-color: #f7f5ef;
     border-radius: 0;
     color: #000000;
 }
 
 .desde-la-barra h2 {
     color: #000000;
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 800;
-    line-height: 1.1;
-    margin: 0 0 28px;
+    line-height: 1.2;
+    margin: 0 0 22px;
     border-bottom: 2px solid #000000;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
+}
+
+.desde-la-barra .autor-opiniones {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: #146B3A !important;
+    line-height: normal !important;
+    margin: 15px 0 2px !important;
+}
+
+.desde-la-barra .fecha-opiniones {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #666666 !important;
+    line-height: normal !important;
+    margin: 0 0 28px !important;
 }
 
 
@@ -274,3 +292,4 @@ span.victoria {
     font-size: 14px;
     font-weight: 700;
 }
+
