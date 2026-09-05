@@ -294,3 +294,31 @@ span.victoria {
     font-weight: 700;
 }
 
+.cabecera-superior {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 40px auto 20px;
+}
+
+.cabecera-superior > section {
+    width: 50%;
+    max-width: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecera-superior > .cabecera {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.cabecera-superior > .cabecera .logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
