@@ -349,3 +349,42 @@ span.victoria {
         width: 100%;
     }
 }
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 35px 0 10px;
+    padding-top: 20px;
+    border-top: 1px solid #cccccc;
+}
+
+.redes-sociales a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.redes-sociales a:hover {
+    color: #146B3A;
+}
+
+.redes-sociales strong {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.redes-sociales small {
+    display: block;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.icono-instagram,
+.icono-x {
+    font-size: 25px;
+    line-height: 1;
+}
