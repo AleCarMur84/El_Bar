@@ -58,7 +58,7 @@ span.victoria {
 ========================= */
 
 section {
-    max-width: 800px;
+    max-width: 650px;
     margin: 40px auto;
     padding: 20px;
     background-image: url("img/cesped2.jpg");
@@ -135,12 +135,11 @@ span.victoria {
 }
 
 .logo {
-    width: 80%;
+    width: 60%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
-
 
 /* =========================
    SUBTÍTULO
