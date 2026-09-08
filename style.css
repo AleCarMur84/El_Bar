@@ -143,6 +143,7 @@ span.victoria {
     margin: 0 auto;
 }
 
+
 /* =========================
    SUBTÍTULO
 ========================= */
@@ -157,7 +158,6 @@ span.victoria {
     line-height: 1.5;
     margin: 18px auto 25px;
     background-color: #f7f5ef;
-
 }
 
 
@@ -294,6 +294,11 @@ span.victoria {
     font-weight: 700;
 }
 
+
+/* =========================
+   CABECERA SUPERIOR
+========================= */
+
 .cabecera-superior {
     display: flex;
     align-items: stretch;
@@ -323,6 +328,11 @@ span.victoria {
     object-fit: cover;
 }
 
+
+/* =========================
+   CONTENIDO DOS COLUMNAS
+========================= */
+
 .contenido-dos-columnas {
     display: flex;
     gap: 20px;
@@ -350,11 +360,17 @@ span.victoria {
     }
 }
 
+
+/* =========================
+   REDES SOCIALES
+========================= */
+
 .redes-sociales {
     display: flex;
-    justify-content: center;
-    gap: 35px;
-    margin: 35px 0 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    margin: 35px 0 10px auto;
     padding-top: 20px;
     border-top: 1px solid #cccccc;
 }
@@ -387,4 +403,196 @@ span.victoria {
 .icono-x {
     font-size: 25px;
     line-height: 1;
+}
+
+
+/* =========================
+   ARCHIVO Y DÍA DE BETIS
+========================= */
+
+.archivo a {
+    color: #000000;
+}
+
+.archivo-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.archivo-cabecera {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.archivo-cabecera h3 {
+    margin: 0 0 15px;
+}
+
+.archivo-cabecera a {
+    color: #146B3A;
+}
+
+
+/* =========================
+   REDES EN LA MISMA LÍNEA
+========================= */
+
+.archivo-redes .redes-sociales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    width: auto;
+    margin: 15px 0 0;
+    padding: 0;
+    border-top: none;
+}
+
+/* =========================
+PÁGINA ENLACE CRÓNICAS
+========================= */
+
+.cabecera-enlace {
+width: 100%;
+margin: 20px auto 45px;
+text-align: center;
+}
+
+.cabecera-enlace img {
+display: block;
+width: 800px;
+max-width: 55%;
+height: auto;
+margin: 0 auto;
+}
+
+.pagina-enlace-cronicas {
+max-width: 700px;
+margin: 0 auto;
+padding: 0 30px 60px;
+}
+
+.subtitulo-enlace {
+    text-align: center;
+    color: #146B3A;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+    margin: 0 0 45px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #146B3A;
+}
+
+.pagina-enlace-cronicas h1 {
+text-align: center;
+font-size: 22px;
+font-weight: 800;
+color: #146B3A;
+margin: 0 0 30px;
+padding-bottom: 10px;
+border-bottom: 2px solid #146B3A;
+}
+
+.cronica-enlace {
+margin: 0;
+text-align: center;
+}
+
+.cronica-enlace a {
+display: inline-block;
+color: #000000;
+text-decoration: none;
+padding: 10px 20px;
+}
+
+.cronica-enlace a:hover {
+color: #146B3A;
+}
+
+.cronica-enlace span {
+display: block;
+color: #000000;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 1.8px;
+margin-bottom: 10px;
+}
+
+.cronica-enlace strong {
+display: block;
+color: #000000;
+font-size: 19px;
+font-weight: 800;
+}
+
+/* =========================
+PÁGINA ENLACE DÍA DE BETIS
+========================= */
+
+.pagina-enlace-dia-betis {
+max-width: 700px;
+margin: 0 auto;
+padding: 0 30px 60px;
+}
+
+.subtitulo-dia-betis {
+text-align: center;
+color: #146B3A;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.5px;
+line-height: 1.3;
+margin: 0 0 45px;
+padding-bottom: 10px;
+border-bottom: 2px solid #146B3A;
+}
+
+.dia-betis-enlace {
+margin: 0;
+text-align: center;
+}
+
+.dia-betis-enlace a {
+display: inline-block;
+color: #000000;
+text-decoration: none;
+padding: 10px 20px;
+}
+
+.dia-betis-enlace a:hover {
+color: #146B3A;
+}
+
+.dia-betis-enlace span {
+display: block;
+color: #000000;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 1.8px;
+margin-bottom: 10px;
+}
+
+.dia-betis-enlace strong {
+display: block;
+color: #000000;
+font-size: 19px;
+font-weight: 800;
+}
+
+/* =========================
+   BANNER DÍA DE BETIS
+========================= */
+
+.banner-dia-betis {
+    background-image: url("Img/logo_champions.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-blend-mode: normal;
+    min-height: 300px;
 }
