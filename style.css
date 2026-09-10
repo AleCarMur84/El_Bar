@@ -477,7 +477,7 @@ padding: 0 30px 60px;
 
 .subtitulo-enlace {
     text-align: center;
-    color: #146B3A;
+    color: #000000;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -515,7 +515,7 @@ color: #146B3A;
 
 .cronica-enlace span {
 display: block;
-color: #000000;
+color: #146B3A;
 font-size: 13px;
 font-weight: 700;
 letter-spacing: 1.8px;
@@ -524,7 +524,7 @@ margin-bottom: 10px;
 
 .cronica-enlace strong {
 display: block;
-color: #146B3A;
+color: #000000;
 font-size: 19px;
 font-weight: 800;
 }
@@ -541,7 +541,7 @@ padding: 0 30px 60px;
 
 .subtitulo-dia-betis {
 text-align: center;
-color: #146B3A;
+color: #000000;
 font-size: 18px;
 font-weight: 700;
 letter-spacing: 1.5px;
@@ -569,7 +569,7 @@ color: #146B3A;
 
 .dia-betis-enlace span {
 display: block;
-color: #000000;
+color: #146B3A;
 font-size: 13px;
 font-weight: 700;
 letter-spacing: 1.8px;
