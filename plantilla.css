@@ -343,11 +343,10 @@ span.victoria {
 
 .contenido-dos-columnas .cronica,
 .contenido-dos-columnas .desde-la-barra {
-    width: auto;
+    width: 50%;
     max-width: none;
     margin: 0;
     box-sizing: border-box;
-    flex: 1;
 }
 
 @media (max-width: 800px) {
@@ -590,16 +589,6 @@ font-weight: 800;
 
 .banner-dia-betis {
     background-image: url("img/logo_champions.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-blend-mode: normal;
-    min-height: 300px;
-}
-
-.banner-dia-betis-irlanda {
-    background-image: url("img/Irlanda.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
