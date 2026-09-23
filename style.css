@@ -553,15 +553,19 @@ border-bottom: 2px solid #146B3A;
 }
 
 .dia-betis-enlace {
-margin: 0;
-text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .dia-betis-enlace a {
-display: inline-block;
-color: #000000;
-text-decoration: none;
-padding: 10px 20px;
+    display: block;
+    width: 33.333%;
+    box-sizing: border-box;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 .dia-betis-enlace a:hover {
@@ -600,6 +604,16 @@ font-weight: 800;
 
 .banner-dia-betis-irlanda {
     background-image: url("img/Irlanda.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-blend-mode: normal;
+    min-height: 300px;
+}
+
+.banner-dia-betis-grada {
+    background-image: url("img/betisgrada.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -839,6 +853,7 @@ font-weight: 800;
         4% 39%, 0 25%, 5% 12%
     );
 }
+
 body:has(.banner-dia-betis)::before,
 body:has(.banner-dia-betis)::after {
     content: "";
