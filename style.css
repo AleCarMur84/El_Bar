@@ -1020,3 +1020,18 @@ body::before {
     background-blend-mode: normal;
     min-height: 300px;
 }
+
+
+/* =========================
+   BANNER DÍA DE BETIS EUROPA
+========================= */
+
+.banner-dia-betis-europa {
+    background-image: url("img/tifo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-blend-mode: normal;
+    min-height: 300px;
+}
